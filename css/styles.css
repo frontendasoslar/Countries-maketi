@@ -319,6 +319,12 @@ img {
   background-color: var(--header-bacground);
   margin-bottom: 80px;
 }
+.back:hover {
+  opacity: 0.8;
+}
+.back:active {
+  opacity: 0.6;
+}
 .back-img {
   width: 20px;
   height: 20px;
@@ -373,7 +379,7 @@ img {
   padding: 0;
   margin: 0;
   width: 220px;
-  margin-right: 120px;
+  margin-right: 100px;
 }
 .country-pace-list {
   padding: 0;
@@ -418,6 +424,7 @@ img {
   margin: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .border-countries-list-item {
@@ -426,6 +433,14 @@ img {
   background-color: var(--header-bacground);
   border-radius: 5px;
 }
+
+.border-countries-list-item:hover {
+ opacity: 0.8;
+}
+
+.border-countries-list-item:active {
+  opacity: 0.6;
+ }
 
 .border-countries-list-item:not(:last-child) {
   margin-right: 10px;
