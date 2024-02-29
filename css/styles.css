@@ -188,6 +188,10 @@ img {
   justify-content:space-between;
   margin-bottom: 48px;
 }
+
+.search-form {
+  position: relative;
+}
 .search-country {
   color: var(--search-text-color);
   background-color: var(--header-bacground);
@@ -196,6 +200,13 @@ img {
   border-radius: 5px;
   padding: 18px 74px;
   min-width: 480px;
+}
+
+.search-form-img {
+  position: absolute;
+  left: -5px;
+  top: 15px;
+  transform: translateX(30px);
 }
 
 .filter-select {
